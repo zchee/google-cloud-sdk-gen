@@ -1,0 +1,16 @@
+[prune]
+  go-tests = true
+  unused-packages = true
+  non-go = true
+
+[[constraint]]
+  name = "github.com/PuerkitoBio/goquery"
+  branch = "master"
+
+[[constraint]]
+  name = "github.com/blang/semver"
+  branch = "master"
+
+[[override]]
+  name = "github.com/andybalholm/cascadia"
+  branch = "master"
